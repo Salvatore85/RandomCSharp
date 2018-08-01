@@ -9,3 +9,14 @@ P:\Users\ot-madonnas\source\repos\RandomCSharpCode\DiamondBuilder\obj\Debug\netc
 P:\Users\ot-madonnas\source\repos\RandomCSharpCode\DiamondBuilder\obj\Debug\netcoreapp2.1\DiamondBuilder.AssemblyInfo.cs
 P:\Users\ot-madonnas\source\repos\RandomCSharpCode\DiamondBuilder\obj\Debug\netcoreapp2.1\DiamondBuilder.dll
 P:\Users\ot-madonnas\source\repos\RandomCSharpCode\DiamondBuilder\obj\Debug\netcoreapp2.1\DiamondBuilder.pdb
+P:\Projecten\GitHub\RandomCSharpCode\DiamondBuilder\bin\Debug\netcoreapp2.1\DiamondBuilder.deps.json
+P:\Projecten\GitHub\RandomCSharpCode\DiamondBuilder\bin\Debug\netcoreapp2.1\DiamondBuilder.runtimeconfig.json
+P:\Projecten\GitHub\RandomCSharpCode\DiamondBuilder\bin\Debug\netcoreapp2.1\DiamondBuilder.runtimeconfig.dev.json
+P:\Projecten\GitHub\RandomCSharpCode\DiamondBuilder\bin\Debug\netcoreapp2.1\DiamondBuilder.dll
+P:\Projecten\GitHub\RandomCSharpCode\DiamondBuilder\bin\Debug\netcoreapp2.1\DiamondBuilder.pdb
+P:\Projecten\GitHub\RandomCSharpCode\DiamondBuilder\obj\Debug\netcoreapp2.1\DiamondBuilder.csprojAssemblyReference.cache
+P:\Projecten\GitHub\RandomCSharpCode\DiamondBuilder\obj\Debug\netcoreapp2.1\DiamondBuilder.csproj.CoreCompileInputs.cache
+P:\Projecten\GitHub\RandomCSharpCode\DiamondBuilder\obj\Debug\netcoreapp2.1\DiamondBuilder.AssemblyInfoInputs.cache
+P:\Projecten\GitHub\RandomCSharpCode\DiamondBuilder\obj\Debug\netcoreapp2.1\DiamondBuilder.AssemblyInfo.cs
+P:\Projecten\GitHub\RandomCSharpCode\DiamondBuilder\obj\Debug\netcoreapp2.1\DiamondBuilder.dll
+P:\Projecten\GitHub\RandomCSharpCode\DiamondBuilder\obj\Debug\netcoreapp2.1\DiamondBuilder.pdb
