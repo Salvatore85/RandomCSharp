@@ -11,7 +11,6 @@ namespace RomanNumeralsEncoder
             var number = ConvertNumber(2018);
 
             Console.WriteLine(number);
-            Console.WriteLine(2018 % 10);
             Console.ReadLine();
         }
 
