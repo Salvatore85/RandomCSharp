@@ -7,25 +7,25 @@ namespace CamelCase
     {
         static void Main(string[] args)
         {
-            string Test = "some test string";
+            string test = "some test string";
 
-            Console.WriteLine(CamelCase(Test));
+            Console.WriteLine(CamelCase(test));
 
             Console.ReadLine();
         }
 
         public static string CamelCase(string str)
         {
-            string CleanSentence = "";
+            string cleanSentence = "";
             string[] words = str.Split(" ");
 
             foreach (string word in words)
             {
                 string transmorph = word.First().ToString().ToUpper() + word.Substring(1);
-                CleanSentence += transmorph;
+                cleanSentence += transmorph;
             }
 
-            return CleanSentence;
+            return cleanSentence;
         }
     }
 }
