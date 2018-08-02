@@ -21,17 +21,10 @@ namespace AnagramFinder
             string a = "abcd";
             string b = "bcda"; // bad daa a1b2c3 abc123
 
-            string aa = String.Concat(a.OrderBy(c => c));
+            string aa = string.Concat(a.OrderBy(c => c));
             string bb = String.Concat(b.OrderBy(c => c));
 
-            if (aa == bb)
-            {
-                Console.WriteLine("YES");
-            }
-            else
-            {
-                Console.WriteLine("NO");
-            }
+            Console.WriteLine(aa == bb ? "YES" : "NO");
 
             Console.ReadLine();
         }
@@ -39,6 +32,17 @@ namespace AnagramFinder
         public static List<string> Anagrams(string word, List<string> words)
         {
             var result = new List<string>();
+
+            foreach (var checkWord in words)
+            {
+                string inputWord = string.Concat(word.OrderBy(o => o));
+                string wordToCompare = string.Concat(checkWord.OrderBy(o => o));
+
+                if (inputWord == wordToCompare)
+                {
+                    result.Add(checkWord);
+                }
+            }
 
             //foreach (var woordje in words)
             //{
@@ -48,24 +52,24 @@ namespace AnagramFinder
             //    }
             //}
             
-            var lettersToCheck = word.ToCharArray();
+            //var lettersToCheck = word.ToCharArray();
 
-            foreach (var testWord in words)
-            {
-                if (testWord.Length == word.Length)
-                {
-                    var lettersToCompare = testWord.ToCharArray();
+            //foreach (var testWord in words)
+            //{
+            //    if (testWord.Length == word.Length)
+            //    {
+            //        var lettersToCompare = testWord.ToCharArray();
 
-                    foreach (var letterToCompare in lettersToCompare)
-                    {
-                    }
-                }
-                else
-                {
-                    return result;
-                }
+            //        foreach (var letterToCompare in lettersToCompare)
+            //        {
+            //        }
+            //    }
+            //    else
+            //    {
+            //        return result;
+            //    }
                 
-            }
+            //}
 
             return result;
         }
