@@ -51,5 +51,3 @@ namespace TenMinuteWalk
     }
 }
 
-
-// Algorithm is that there must be an equal ammount of S as N and E as W.
