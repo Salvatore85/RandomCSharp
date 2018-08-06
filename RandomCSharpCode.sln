@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CamelCase", "CamelCase\Came
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnagramFinder", "AnagramFinder\AnagramFinder.csproj", "{B9A5F749-1BA7-42AF-AEF8-458C77A70BA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringSplitter", "StringSplitter\StringSplitter.csproj", "{5114D3AD-2112-4909-A643-5D04B24DDDF0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringSplitter", "StringSplitter\StringSplitter.csproj", "{5114D3AD-2112-4909-A643-5D04B24DDDF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TenMinuteWalk", "TenMinuteWalk\TenMinuteWalk.csproj", "{2D74BA88-EE8E-46C2-B5FA-E6BB1A065246}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{5114D3AD-2112-4909-A643-5D04B24DDDF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5114D3AD-2112-4909-A643-5D04B24DDDF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5114D3AD-2112-4909-A643-5D04B24DDDF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D74BA88-EE8E-46C2-B5FA-E6BB1A065246}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D74BA88-EE8E-46C2-B5FA-E6BB1A065246}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D74BA88-EE8E-46C2-B5FA-E6BB1A065246}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D74BA88-EE8E-46C2-B5FA-E6BB1A065246}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
