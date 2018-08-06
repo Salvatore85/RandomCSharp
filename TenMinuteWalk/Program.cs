@@ -6,7 +6,7 @@ namespace TenMinuteWalk
     {
         static void Main(string[] args)
         {
-            string[] test = { "n", "n", "n", "s", "n", "s", "n", "s", "n", "s"};
+            string[] test = { "n", "s", "n", "n", "n", "s", "n", "s", "n", "s" };
 
             Console.WriteLine(IsValidWalk(test));
 
@@ -25,7 +25,28 @@ namespace TenMinuteWalk
                 return false;
             }
 
-            return true;
+            foreach (var coordinate in walk)
+            {
+                switch (coordinate)
+                {
+                    case "n":
+                        nCounter++;
+                        break;
+                    case "s":
+                        sCounter++;
+                        break;
+                    case "e":
+                        eCounter++;
+                        break;
+                    case "w":
+                        wCounter++;
+                        break;
+                    default:
+                        break;
+                }
+            }
+
+            return nCounter == sCounter && eCounter == wCounter;
         }
     }
 }
