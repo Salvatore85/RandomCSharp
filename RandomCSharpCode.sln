@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnagramFinder", "AnagramFin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringSplitter", "StringSplitter\StringSplitter.csproj", "{5114D3AD-2112-4909-A643-5D04B24DDDF0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TenMinuteWalk", "TenMinuteWalk\TenMinuteWalk.csproj", "{2D74BA88-EE8E-46C2-B5FA-E6BB1A065246}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TenMinuteWalk", "TenMinuteWalk\TenMinuteWalk.csproj", "{2D74BA88-EE8E-46C2-B5FA-E6BB1A065246}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovingZeros", "MovingZeros\MovingZeros.csproj", "{FA6E00D7-D655-4031-AC6B-30A8F729E3F9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{2D74BA88-EE8E-46C2-B5FA-E6BB1A065246}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D74BA88-EE8E-46C2-B5FA-E6BB1A065246}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D74BA88-EE8E-46C2-B5FA-E6BB1A065246}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA6E00D7-D655-4031-AC6B-30A8F729E3F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA6E00D7-D655-4031-AC6B-30A8F729E3F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA6E00D7-D655-4031-AC6B-30A8F729E3F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA6E00D7-D655-4031-AC6B-30A8F729E3F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
