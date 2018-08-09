@@ -44,17 +44,17 @@ namespace MergedStringChecker
                 .ToList();
 
             //Remove spaces from part2
-            string trimmedPart2 = part2.Replace(" ", "");
+            string lettersToMerge = part2.Replace(" ", "");
 
             StringBuilder builder = new StringBuilder(s);
 
             int counter = spaceIndexes.Count;
 
-            //foreach (var VARIABLE in COLLECTION)
-            //{
-            //    builder[index#] = trimmedpart2[index#]
-            //    counter--; 
-            //}
+            for (int i = 0; i < counter; i++)
+            {
+                builder[i] = lettersToMerge[i];
+                counter--;
+            }
 
             if (builder.ToString() == s)
             {
