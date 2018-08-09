@@ -44,7 +44,7 @@ namespace MovingZeros
 
             //return result.ToArray();
 
-            return arr.OrderBy(x => x == 0).ToArray();
+            return arr.OrderBy(x => x==0).ToArray();
         }
     }
 }
