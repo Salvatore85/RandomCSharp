@@ -8,22 +8,22 @@ namespace MergedStringChecker
     {
         static void Main(string[] args)
         {
-            //string part1 = "s lva  re";
-            //string part2 = " a   to  ";
+            string part1 = "s lva  re";
+            string part2 = " a   to  ";
 
-            //string combined = "salvatore";
+            string combined = "salvatore";
 
-            //Console.WriteLine(isMerge(combined, part1, part2));
+            Console.WriteLine(isMerge(combined, part1, part2));
 
-            string test = "Sal vat ore";
+            //string test = "Sal vat ore";
 
-            StringBuilder sbuilder = new StringBuilder(test);
+            //StringBuilder sbuilder = new StringBuilder(test);
 
-            char newchar = 'a';
+            //char newchar = 'a';
 
-            sbuilder[3] = newchar; 
+            //sbuilder[3] = newchar; 
 
-            Console.WriteLine(sbuilder.ToString());
+            //Console.WriteLine(sbuilder.ToString());
 
             Console.ReadLine();
         }
@@ -52,7 +52,7 @@ namespace MergedStringChecker
 
             for (int i = 0; i < counter; i++)
             {
-                builder[i] = lettersToMerge[i];
+                builder[spaceIndexes[i]] = lettersToMerge[i];
                 counter--;
             }
 
