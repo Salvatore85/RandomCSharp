@@ -14,12 +14,19 @@ namespace MergedStringChecker
 
             //Console.WriteLine(isMerge(combined, part1, part2));
 
-            string test = "Salvatore";
+            string test = "Sal vat ore";
 
-            foreach (var letter in test)
+            var spaces = test.ToCharArray()
+                .Select((v, i) => new {value = v, index = i})
+                .Where(element => element.value == ' ')
+                .Select((element => element.index))
+                .ToList();
+
+            foreach (var space in spaces)
             {
-                Console.WriteLine(letter);
+                Console.WriteLine(space);
             }
+
             Console.ReadLine();
         }
 
@@ -29,6 +36,16 @@ namespace MergedStringChecker
             {
                 return false;
             }
+
+            var newPart1 = part1.ToList();
+            var newPart2 = part2.ToList();
+
+            var spaces = s.ToCharArray()
+                .Select((v, i) => new { value = v, index = i })
+                .Where(element => element.value == ' ')
+                .Select((element => element.index))
+                .ToList();
+
 
             return false;
         }
