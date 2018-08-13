@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TenMinuteWalk", "TenMinuteW
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovingZeros", "MovingZeros\MovingZeros.csproj", "{FA6E00D7-D655-4031-AC6B-30A8F729E3F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergedStringChecker", "MergedStringChecker\MergedStringChecker.csproj", "{4B34F4BC-0C89-4205-8545-936207DDDA72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MergedStringChecker", "MergedStringChecker\MergedStringChecker.csproj", "{4B34F4BC-0C89-4205-8545-936207DDDA72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadableTime", "ReadableTime\ReadableTime.csproj", "{3C2BD597-E291-47CD-9126-E2C5E366E5E7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{4B34F4BC-0C89-4205-8545-936207DDDA72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B34F4BC-0C89-4205-8545-936207DDDA72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B34F4BC-0C89-4205-8545-936207DDDA72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C2BD597-E291-47CD-9126-E2C5E366E5E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C2BD597-E291-47CD-9126-E2C5E366E5E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C2BD597-E291-47CD-9126-E2C5E366E5E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C2BD597-E291-47CD-9126-E2C5E366E5E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -8,22 +8,12 @@ namespace MergedStringChecker
     {
         static void Main(string[] args)
         {
-            string part1 = "s lva  re";
-            string part2 = " a   to  ";
+            string part1 = " alv to e";
+            string part2 = "s   a  r ";
 
             string combined = "salvatore";
 
             Console.WriteLine(isMerge(combined, part1, part2));
-
-            //string test = "Sal vat ore";
-
-            //StringBuilder sbuilder = new StringBuilder(test);
-
-            //char newchar = 'a';
-
-            //sbuilder[3] = newchar; 
-
-            //Console.WriteLine(sbuilder.ToString());
 
             Console.ReadLine();
         }
