@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadableTime", "ReadableTim
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Base64Encoding", "Base64Encoding\Base64Encoding.csproj", "{74ADFC38-8709-4209-9F9E-0A742A2CC595}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JosephusSurvivor", "JosephusSurvivor\JosephusSurvivor.csproj", "{421E8424-C290-4279-94B4-DAE8E0D97CA7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{74ADFC38-8709-4209-9F9E-0A742A2CC595}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74ADFC38-8709-4209-9F9E-0A742A2CC595}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74ADFC38-8709-4209-9F9E-0A742A2CC595}.Release|Any CPU.Build.0 = Release|Any CPU
+		{421E8424-C290-4279-94B4-DAE8E0D97CA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{421E8424-C290-4279-94B4-DAE8E0D97CA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{421E8424-C290-4279-94B4-DAE8E0D97CA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{421E8424-C290-4279-94B4-DAE8E0D97CA7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
