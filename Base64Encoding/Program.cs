@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace Base64Encoding
 {
@@ -6,7 +7,24 @@ namespace Base64Encoding
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string stringTest = "Dit is een test";
+            var base64Test = "dGhpcyBpcyBhIHN0cmluZyEh";
+
+            Console.WriteLine(FromBase64(base64Test));
+
+            Console.ReadLine();
+        }
+
+        public static string ToBase64(string s)
+        {
+            var sBytes = Encoding.UTF8.GetBytes(s);
+            return Convert.ToBase64String(sBytes);
+        }
+
+        public static string FromBase64(string s)
+        {
+            var base64Bytes = Convert.FromBase64String(s);
+            return Encoding.UTF8.GetString(base64Bytes);
         }
     }
 }
