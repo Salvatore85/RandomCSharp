@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MergedStringChecker", "Merg
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadableTime", "ReadableTime\ReadableTime.csproj", "{3C2BD597-E291-47CD-9126-E2C5E366E5E7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Base64Encoding", "Base64Encoding\Base64Encoding.csproj", "{74ADFC38-8709-4209-9F9E-0A742A2CC595}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{3C2BD597-E291-47CD-9126-E2C5E366E5E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C2BD597-E291-47CD-9126-E2C5E366E5E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C2BD597-E291-47CD-9126-E2C5E366E5E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74ADFC38-8709-4209-9F9E-0A742A2CC595}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74ADFC38-8709-4209-9F9E-0A742A2CC595}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74ADFC38-8709-4209-9F9E-0A742A2CC595}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74ADFC38-8709-4209-9F9E-0A742A2CC595}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
