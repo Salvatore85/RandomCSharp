@@ -14,19 +14,9 @@ namespace ReadableTime
 
         public static string GetReadableTime(int seconds)
         {
-            if (seconds >= 359999)
-            {
-                return "99:59:59";
-            }
-
-            if (seconds == 86400)
-            {
-                return "24:00:00";
-            }
-
             TimeSpan time = TimeSpan.FromSeconds(seconds);
 
-            return time.ToString();
+            return string.Format($"{(int)time.TotalHours:00}:{time.Minutes:00}:{time.Seconds:00}");
         }
     }
 }
