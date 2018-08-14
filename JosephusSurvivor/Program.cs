@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace JosephusSurvivor
 {
@@ -7,37 +6,20 @@ namespace JosephusSurvivor
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(JosSurvivor(7, 3));
+            Console.WriteLine(JosSurvivor(300, 300));
             Console.ReadLine();
         }
 
         public static int JosSurvivor(int n, int k)
         {
-            var people = new List<int>();
-            int removeStep = k - 1;
-
-            for (int i = 0; i < n; i++)
+            if (n == 1)
             {
-                people.Add(i+1);
+                return 1;
             }
-
-            if (people.Count == 2)
+            else
             {
-                return people[1];
+                return (JosSurvivor(n - 1, k) + k - 1) % n + 1;
             }
-
-            for (int i = 0; i < people.Count; i++)
-            {
-                if (removeStep > people.Count)
-                {
-                    removeStep = removeStep - n;
-                }
-
-                people.RemoveAt(removeStep);
-                removeStep = removeStep + k;
-            }
-
-            return people[0];
         }
     }
 }
