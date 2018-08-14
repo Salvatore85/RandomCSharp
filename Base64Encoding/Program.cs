@@ -7,10 +7,10 @@ namespace Base64Encoding
     {
         static void Main(string[] args)
         {
-            string stringTest = "Dit is een test";
+            string stringTest = "Salvatore";
             var base64Test = "dGhpcyBpcyBhIHN0cmluZyEh";
 
-            Console.WriteLine(FromBase64(base64Test));
+            Console.WriteLine(ToBase64(stringTest));
 
             Console.ReadLine();
         }
